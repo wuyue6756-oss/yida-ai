@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-08-31T13:09:25.850Z",
+  "caseId": "vision-white-vneck",
+  "name": "真实识别：公开授权白色V领短袖T恤",
+  "fingerprint": "33cc9d4542de6ced4964f4302756ae16c252e7d96bad65a57df14b1b98693428",
+  "provider": "glm",
+  "model": "glm-4v-flash",
+  "inputSummary": {
+    "fixture": "white-vneck.jpg",
+    "expected": "白色V领短袖T恤",
+    "sha256": "ecdfb6614943e4175f414ee39060dd1d95299aeecb0b5b121da77e726e23d2c4"
+  },
+  "codeHashes": {
+    "src/ai/client.ts": "9562a3b3a1d9a7e6948dc63484aabb3c8e43d04f1926d43bbc54841bb207f55a",
+    "src/ai/parsers.ts": "d2b26e0b462358a0bb05caaf593552de3762ab9511f8e9739a4fb98402bb03e8",
+    "src/ai/transport.ts": "1978560519d3b3fd6d3f6045596ec3469b8dd0fe31839cd164d75e10fd88035c",
+    "src/ai/reviewRules.ts": "7e5009a1df68714818770f59c74ff8f897df8db930aba5c47fcd87b468c71054",
+    "docs/scripts/server.mjs": "a05f2bb616bdeb3917ef409140f569040da43a3dff4fa1f22c6ad5d9a797f402"
+  },
+  "elapsedMs": 2046,
+  "requests": 1,
+  "source": "ai",
+  "error": null,
+  "validation": {
+    "ok": true
+  },
+  "checks": {
+    "categoryIsTop": true,
+    "white": true,
+    "vneck": true,
+    "shortSleeves": true
+  },
+  "passed": true,
+  "qualityNote": "自动内容检查仅覆盖本用例特征，不等于审美质量或泛化准确率；还需人工审阅。",
+  "data": {
+    "name": "白色 V 领短袖 T 恤",
+    "category": "上装",
+    "colors": [
+      "白色"
+    ],
+    "seasons": [
+      "春",
+      "夏"
+    ],
+    "styles": [
+      "简约"
+    ],
+    "material": "棉质",
+    "confidence": 1
+  }
+}

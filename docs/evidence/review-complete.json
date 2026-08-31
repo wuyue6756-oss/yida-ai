@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-08-31T12:57:29.882Z",
+  "caseId": "review-complete",
+  "name": "真实点评：白衬衫＋黑色烟管裤＋黑色乐福鞋",
+  "fingerprint": "a401608c93ed2377a4f085d55de424cfdd8c71f928b209deeded449a1461ec11",
+  "provider": "glm",
+  "model": "glm-4-flash",
+  "inputSummary": {
+    "garments": [
+      {
+        "id": "g_013",
+        "name": "白色挺括长袖衬衫"
+      },
+      {
+        "id": "g_015",
+        "name": "黑色高腰九分烟管裤"
+      },
+      {
+        "id": "g_010",
+        "name": "黑色方头乐福鞋"
+      }
+    ],
+    "missingShoes": false
+  },
+  "codeHashes": {
+    "src/ai/client.ts": "1a06c1cb7273fc2292b9d093afeb514b8d993d4de1ae5ac545de04506e993c0a",
+    "src/ai/parsers.ts": "d2b26e0b462358a0bb05caaf593552de3762ab9511f8e9739a4fb98402bb03e8",
+    "src/ai/transport.ts": "1978560519d3b3fd6d3f6045596ec3469b8dd0fe31839cd164d75e10fd88035c",
+    "docs/scripts/server.mjs": "5558ef3859826f50ab790e9861eeced64417986b576e9b0b57ccdab0f1a4c6f3"
+  },
+  "elapsedMs": 5822,
+  "requests": 1,
+  "source": "ai",
+  "error": null,
+  "validation": {
+    "ok": true
+  },
+  "checks": {
+    "mentionsActualGarment": true,
+    "noCopiedOldExample": true
+  },
+  "passed": true,
+  "qualityNote": "自动内容检查仅覆盖本用例特征，不等于审美质量或泛化准确率；还需人工审阅。",
+  "data": {
+    "score": 8.5,
+    "comment": "黑色高腰九分烟管裤与白色衬衫的搭配既通勤又温柔，黑色显瘦效果显著，九分长度拉长了腿部线条，非常适合梨形身材。衬衫的棉与莱赛尔混纺材质透气舒适，适合春秋季节。",
+    "tags": [
+      "显瘦",
+      "通勤",
+      "温柔"
+    ]
+  }
+}

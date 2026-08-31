@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-08-31T13:07:56.431Z",
+  "caseId": "review-missing-shoes",
+  "name": "真实点评：白衬衫＋黑色烟管裤（缺鞋）",
+  "fingerprint": "17c53c2598a119f07e895285e866cf3be16b5c1aea142fd95ec6257201016a4d",
+  "provider": "glm",
+  "model": "glm-4-flash",
+  "inputSummary": {
+    "garments": [
+      {
+        "id": "g_013",
+        "name": "白色挺括长袖衬衫"
+      },
+      {
+        "id": "g_015",
+        "name": "黑色高腰九分烟管裤"
+      }
+    ],
+    "missingShoes": true
+  },
+  "codeHashes": {
+    "src/ai/client.ts": "9562a3b3a1d9a7e6948dc63484aabb3c8e43d04f1926d43bbc54841bb207f55a",
+    "src/ai/parsers.ts": "d2b26e0b462358a0bb05caaf593552de3762ab9511f8e9739a4fb98402bb03e8",
+    "src/ai/transport.ts": "1978560519d3b3fd6d3f6045596ec3469b8dd0fe31839cd164d75e10fd88035c",
+    "src/ai/reviewRules.ts": "7e5009a1df68714818770f59c74ff8f897df8db930aba5c47fcd87b468c71054",
+    "docs/scripts/server.mjs": "a05f2bb616bdeb3917ef409140f569040da43a3dff4fa1f22c6ad5d9a797f402"
+  },
+  "elapsedMs": 9820,
+  "requests": 2,
+  "source": "ai",
+  "error": null,
+  "validation": {
+    "ok": true
+  },
+  "checks": {
+    "mentionsActualGarment": true,
+    "noCopiedOldExample": true,
+    "mentionsMissingShoes": true
+  },
+  "passed": true,
+  "qualityNote": "自动内容检查仅覆盖本用例特征，不等于审美质量或泛化准确率；还需人工审阅。",
+  "data": {
+    "score": 8.5,
+    "comment": "还缺一双鞋，白色挺括长袖衬衫搭配黑色高腰九分烟管裤，颜色协调，材质舒适，适合春夏季通勤，简约而不失风格。",
+    "tags": [
+      "简约通勤",
+      "舒适材质",
+      "颜色协调"
+    ]
+  }
+}
